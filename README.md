@@ -15,6 +15,22 @@ Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/course
 
 | Blog Post | Code|
 | ------------- |:-------------|
+| [AI Agent in Action: Automating Desktop Tasks with VLMs](https://learnopencv.com/build-ai-agents-using-vlm/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Local-VLM-Agents-in-Action-GUI-Automation-with-Moondream3-and-Gemini) |
+| [Top VLM Evaluation Metrics for Optimal Performance Analysis](https://learnopencv.com/vlm-evaluation-metrics/) | [Code](https://github.com/spmallick/learnopencv/tree/master/VLM_Evaluation_Metrics) |
+|[Getting Started with VLM on Jetson Nano](https://learnopencv.com/vlm-on-jetson-nano/)|[Code](https://github.com/spmallick/learnopencv/tree/master/Getting-Started-with-VLM-on-Jetson-Nano)|
+| [VLM on Edge: Worth the Hype or Just a Novelty?](https://learnopencv.com/vlm-on-edge-devices/) | [Code](https://github.com/spmallick/learnopencv/tree/master/VLM-on-Edge-Worth-the-Hype-or-Just-a-Novelty) |
+| [AnomalyCLIP : Harnessing CLIP for Weakly-Supervised Video Anomaly Recognition](https://learnopencv.com/anomalyclip-video-anomaly-recognition/) | [Code](https://github.com/spmallick/learnopencv/tree/master/AnomalyCLIP_Harnessing_CLIP_for_Weakly_Supervised_Video_Anomaly_Recognition) |
+| [AI_for_Video_Understanding_From_Content_Moderation_to_Summarization](https://learnopencv.com/ai-for-video-understanding/) | [Code](https://github.com/spmallick/learnopencv/tree/master/AI_for_Video_Understanding_From_Content_Moderation_to_Summarization) |
+| [Video-RAG: Training-Free Retrieval for Long-Video LVLMs](https://learnopencv.com/video-rag-for-long-videos/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Video-RAG_Training_Free_Retrieval_for_Long_Video_LVLMs) |
+| [Object Detection and Spatial Understanding with VLMs ft. Qwen2.5-VL](https://learnopencv.com/object-detection-with-vlms-ft-qwen2-5-vl/) | [Code](https://github.com/spmallick/learnopencv/tree/master/object-detection-with-vlms) |
+| [LangGraph: Building Self-Correcting RAG Agent for Code Generation](https://learnopencv.com/langgraph-self-correcting-agent-code-generation/) | [Code](https://github.com/spmallick/learnopencv/tree/master/LangGraph_Building_Self_Correcting_RAG_Agent_for_Code_Generation) |
+| [Inside Sinusoidal Position Embeddings: A Sense of Order](https://learnopencv.com/sinusoidal-position-embeddings/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Sinusoidal_Position_Embeddings) |
+| [Inside RoPE: Rotary Magic into Position Embeddings](https://learnopencv.com/rope-position-embeddings/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Inside_RoPE_Position_Embeddings) |
+| [SimLingo-Vision-Language-Action-Model-for-Autonomous-Driving](https://learnopencv.com/simlingo-vision-language-action-model-for-autonomous-driving/) | [Code](https://github.com/spmallick/learnopencv/tree/master/SimLingo-Vision-Language-Action-Model-for-Autonomous-Driving) |
+| [FineTuning Gemma 3n for Medical VQA on ROCOv2](https://learnopencv.com/finetuning-gemma-3n-medical-vqa/) | [Code](https://github.com/spmallick/learnopencv/tree/master/finetuning-gemma3n) |
+| [SmolLM3 Blueprint: SOTA 3B-Parameter LLM](https://learnopencv.com/smollm3-explained/) | |
+| [LangGraph-A-Visual-Automation-and-Summarization-Pipeline](https://learnopencv.com/langgraph-building-a-visual-web-browser-agent/) | [Code](https://github.com/spmallick/learnopencv/tree/master/LangGraph-A-Visual-Automation-and-Summarization-Pipeline) |
+| [Fine-Tuning AnomalyCLIP: Class-Agnostic Zero-Shot Anomaly Detection](https://learnopencv.com/fine-tuning-anomalyclip-medical-anomaly-clip/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Fine-Tuning-AnomalyCLIP) |
 | [SigLIP 2: DeepMind’s Multilingual Vision-Language Model](https://learnopencv.com/siglip-2-deepminds-multilingual-vision-language-model/) | |
 | [MedGemma: Google’s Medico VLM for Clinical QA, Imaging, and More](https://learnopencv.com/medgemma-explained/) | [Code](https://github.com/spmallick/learnopencv/tree/master/medgemma) |
 | [Nanonets-OCR-s: Enabling Rich, Structured Markdown for Document Understanding](https://learnopencv.com/nanonets-ocr-s/) | |
