@@ -15,6 +15,18 @@ Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/course
 
 | Blog Post | Code|
 | ------------- |:-------------|
+|[Deployment on Edge: LLM Serving on Jetson using vLLM](https://learnopencv.com/deployment-on-edge-vllm-on-jetson/)|[Code](https://github.com/spmallick/learnopencv/tree/master/Deployment-on-Edge-LLM-Serving-on-Jetson-using-vLLM)|
+|[Nested Learning: Is Deep Learning Architecture an Illusion?](https://learnopencv.com/nested-learning/)||
+| [How to Build a GitHub Code-Analyser Agent for Developer Productivity](https://learnopencv.com/how-to-build-a-github-code-analyser-agent/) | [Code](https://github.com/spmallick/learnopencv/tree/master/How_to_Build_a_GitHub_Code_Analyser_Agent_for_Developer_Productivity) |
+| [SAM 3D: Foundation Model for Single-Image 3D Reconstruction](https://learnopencv.com/sam-3d/) | |
+| [SAM-3: What’s New, How It Works, and Why It Matters](https://learnopencv.com/sam-3-whats-new/) | [Code](https://github.com/spmallick/learnopencv/tree/master/SAM-3) |
+| [Image-GS: Adaptive Image Reconstruction using 2D Gaussians](https://learnopencv.com/image-gs-image-reconstruction-using-2d-gaussians/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Image_GS_Adaptive_Image_Reconstruction_using_2D_Gaussians) |
+| [Ultimate Guide to Vector Databases and RAG Pipeline](https://learnopencv.com/vector-db-and-rag-pipeline-for-document-rag/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Ultimate_Guide_to_Vector_Databases_and_RAG_pipeline) |
+|[What Makes DeepSeek OCR So Powerful](https://learnopencv.com/what-makes-deepseek-ocr-so-powerful/)|[Code](https://github.com/spmallick/learnopencv/tree/master/What-Makes-DeepSeek-OCR-So-Powerful)|
+| [2D Gaussian Splatting: Geometrically Accurate Radiance Field Reconstruction](https://learnopencv.com/2d-gaussian-splatting-2dgs/) | [Code](https://github.com/spmallick/learnopencv/tree/master/2D_Gaussian_Splatting_Geometrically_Accurate_Radiance_Field_Reconstruction) |
+| [TRM: Tiny Recursive Models](https://learnopencv.com/trm-tiny-ai-models-outsmarting-giants-on-complex-puzzles/) | [Code](https://github.com/spmallick/learnopencv/tree/master/TRM) |
+|[Deploying ML Models on Arduino: From Blink to Think](https://learnopencv.com/deploying-ml-on-arduino/)|[Code](https://github.com/spmallick/learnopencv/tree/master/Deploying-ML-Models-on-Arduino-From-Blink-to-Think)|
+| [VideoRAG: Redefining Long-Context Video Comprehension](https://learnopencv.com/videorag-long-context-video-comprehension/) | |
 | [AI Agent in Action: Automating Desktop Tasks with VLMs](https://learnopencv.com/build-ai-agents-using-vlm/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Local-VLM-Agents-in-Action-GUI-Automation-with-Moondream3-and-Gemini) |
 | [Top VLM Evaluation Metrics for Optimal Performance Analysis](https://learnopencv.com/vlm-evaluation-metrics/) | [Code](https://github.com/spmallick/learnopencv/tree/master/VLM_Evaluation_Metrics) |
 |[Getting Started with VLM on Jetson Nano](https://learnopencv.com/vlm-on-jetson-nano/)|[Code](https://github.com/spmallick/learnopencv/tree/master/Getting-Started-with-VLM-on-Jetson-Nano)|

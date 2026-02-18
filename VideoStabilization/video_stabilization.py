@@ -1,14 +1,32 @@
+"""
+Copyright (c) 2019, Big Vision LLC (Satya Mallick)
+https://bigvision.ai  contact@bigvision.ai
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+"""
+
 # Import numpy and OpenCV
 import numpy as np
 import cv2
 
+OPENCV_MAJOR = int(cv2.__version__.split('.')[0])
 
 def movingAverage(curve, radius): 
   window_size = 2 * radius + 1
   # Define the filter 
   f = np.ones(window_size)/window_size 
   # Add padding to the boundaries 
-  curve_pad = np.lib.pad(curve, (radius, radius), 'edge') 
+  curve_pad = np.pad(curve, (radius, radius), 'edge') 
   # Apply convolution 
   curve_smoothed = np.convolve(curve_pad, f, mode='same') 
   # Remove padding 
@@ -49,10 +67,16 @@ h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = cap.get(cv2.CAP_PROP_FPS)
  
 # Define the codec for output video
-fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+fourcc = cv2.VideoWriter_fourcc(*'mp4v')
  
 # Set up output video
-out = cv2.VideoWriter('video_out.avi', fourcc, fps, (2 * w, h))
+out_w, out_h = 2 * w, h
+if out_w > 1920:
+  out_w //= 2
+  out_h //= 2
+out = cv2.VideoWriter('video_out.mp4', fourcc, fps, (out_w, out_h))
+if not out.isOpened():
+  raise RuntimeError("Failed to open video writer. Check codec and output path.")
 
 # Read first frame
 _, prev = cap.read() 
@@ -90,9 +114,17 @@ for i in range(n_frames-2):
   prev_pts = prev_pts[idx]
   curr_pts = curr_pts[idx]
 
-  #Find transformation matrix
-  m = cv2.estimateRigidTransform(prev_pts, curr_pts, fullAffine=False) #will only work with OpenCV-3 or less
-   
+  # Find transformation matrix
+  if OPENCV_MAJOR >= 4:
+    m, _ = cv2.estimateAffinePartial2D(prev_pts, curr_pts)
+  else:
+    m = cv2.estimateRigidTransform(prev_pts, curr_pts, fullAffine=False) # will only work with OpenCV-3 or less
+  
+  if m is None:
+    # Fall back to identity transform when matching fails
+    m = np.array([[1, 0, 0],
+                  [0, 1, 0]], dtype=np.float32)
+  
   # Extract traslation
   dx = m[0,2]
   dy = m[1,2]
@@ -153,12 +185,11 @@ for i in range(n_frames-2):
   # Write the frame to the file
   frame_out = cv2.hconcat([frame, frame_stabilized])
 
-  # If the image is too big, resize it.
-  if(frame_out.shape[1] > 1920): 
-    frame_out = cv2.resize(frame_out, (frame_out.shape[1]/2, frame_out.shape[0]/2));
+  if (frame_out.shape[1], frame_out.shape[0]) != (out_w, out_h):
+    frame_out = cv2.resize(frame_out, (out_w, out_h))
   
-  cv2.imshow("Before and After", frame_out)
-  cv2.waitKey(10)
+  # cv2.imshow("Before and After", frame_out)
+  # cv2.waitKey(10)
   out.write(frame_out)
 
 # Release video
