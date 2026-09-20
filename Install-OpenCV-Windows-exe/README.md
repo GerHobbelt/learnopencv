@@ -16,12 +16,26 @@ After download, double click on the exe file and OpenCV for C++ development will
 | OpenCV-4.4.0 | [OpenCV-4.4.0-vc16.exe](https://www.dropbox.com/s/z4hgj7mnx6f2rjt/OpenCV-4.4.0-vc16.exe?dl=1) | [OpenCV-4.4.0-vc15.exe](https://www.dropbox.com/s/y3fhk44s0rrpm8v/OpenCV-4.4.0-vc15.exe?dl=1) | [OpenCV-4.4.0-vc14.exe](https://www.dropbox.com/s/85esvu0pe3jcc81/OpenCV-4.4.0-vc14.exe?dl=1) |
 | OpenCV-4.1.0 | [OpenCV-4.1.0-vc16.exe](https://www.dropbox.com/s/fexjsdr1ly72r71/OpenCV-4.1.0-vc16.exe?dl=1) | [OpenCV-4.1.0-vc15.exe](https://www.dropbox.com/s/cqidx60q9e76qqf/OpenCV-4.1.0-vc15.exe?dl=1) | [OpenCV-4.1.0-vc14.exe](https://www.dropbox.com/s/9zu6u6mu31bea9h/OpenCV-4.1.0-vc14.exe?dl=1) |
 
-# AI Courses by OpenCV
+---
 
-Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/courses/) is a great place to start. 
-
-<a href="https://opencv.org/courses/">
-<p align="center"> 
-<img src="https://learnopencv.com/wp-content/uploads/2023/01/AI-Courses-By-OpenCV-Github.png">
+<p align="center">
+  <a href="https://bigvision.ai/">
+    <img src="https://bigvision.ai/logos/logo.png" alt="BigVision.AI" width="300">
+  </a>
 </p>
-</a>
+
+<h2 align="center">Build Production-Ready Computer Vision &amp; AI Solutions</h2>
+
+<p align="center">
+  LearnOpenCV is maintained by <a href="https://bigvision.ai/"><strong>BigVision.AI</strong></a>, a computer vision and AI consulting company. We help organizations design, build, optimize, and deploy production-ready AI solutions. Our team has deep expertise in computer vision, deep learning, multimodal AI, and edge deployment, with experience solving complex technical challenges across industries.
+</p>
+
+<p align="center">
+  Have a project in mind? Talk with our expert AI solution builders.
+</p>
+
+<p align="center">
+  <a href="https://bigvision.ai/expert-ai-solution-builders?utm_source=locv-github">
+    <img src="https://img.shields.io/badge/Get%20in%20Touch-087EA4?style=for-the-badge" alt="Get in Touch with BigVision.AI">
+  </a>
+</p>

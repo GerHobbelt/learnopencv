@@ -2,19 +2,41 @@
 
 This repository contains code for Computer Vision, Deep learning, and AI research articles shared on our blog [LearnOpenCV.com](https://www.LearnOpenCV.com).
 
-Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/courses/) is a great place to start.
-
-<a href="https://opencv.org/courses/">
+---
 
 <p align="center">
-<img src="https://learnopencv.com/wp-content/uploads/2023/01/AI-Courses-By-OpenCV-Github.png">
+  <a href="https://bigvision.ai/">
+    <img src="https://bigvision.ai/logos/logo.png" alt="BigVision.AI" width="300">
+  </a>
 </p>
-</a>
+
+<h2 align="center">Build Production-Ready Computer Vision &amp; AI Solutions</h2>
+
+<p align="center">
+  LearnOpenCV is maintained by <a href="https://bigvision.ai/"><strong>BigVision.AI</strong></a>, a computer vision and AI consulting company. We help organizations design, build, optimize, and deploy production-ready AI solutions. Our team has deep expertise in computer vision, deep learning, multimodal AI, and edge deployment, with experience solving complex technical challenges across industries.
+</p>
+
+<p align="center">
+  Have a project in mind? Talk with our expert AI solution builders.
+</p>
+
+<p align="center">
+  <a href="https://bigvision.ai/expert-ai-solution-builders?utm_source=locv-github">
+    <img src="https://img.shields.io/badge/Get%20in%20Touch-087EA4?style=for-the-badge" alt="Get in Touch with BigVision.AI">
+  </a>
+</p>
 
 ## List of Blog Posts
 
 | Blog Post | Code|
 | ------------- |:-------------|
+| [Contour Detection using OpenCV (Python/C++)](https://learnopencv.com/contour-detection-using-opencv-python-c/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Contour-Detection-using-OpenCV) |
+| [Install OpenCV 5 on Linux](https://learnopencv.com/install-opencv-5-linux/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Install-OpenCV-5-on-Linux) |
+| [Decoding Virat Kohli's Flick Shot: AI-Based 3D Motion Reconstruction](https://learnopencv.com/decoding-virat-kohlis-flick-shot-ai-based-3d-motion-reconstruction/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Decoding-Virats-Flick-Shot) |
+| [How to Run Object Detection with OpenCV 5](https://learnopencv.com/how-to-run-object-detection-with-opencv-5/) |  |
+| [World Cup 2026 Offside Technology: AI, Computer Vision, and the Connected Ball](https://learnopencv.com/world-cup-2026-offside-technology/) |  |
+| [AI Aced JEE Advanced 2026. Can You Trust It to Teach You?](https://learnopencv.com/ai-aced-jee-advanced-2026-can-you-trust-it-to-teach-you/) |  |
+| [How to Fine-Tune YOLO26 for Safety Gear and Sign Language Detection](https://learnopencv.com/how-to-fine-tune-yolo26-for-safety-gear-and-sign-language-detection/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Fine-Tuning-YOLO26-Models-Custom-Dataset) |
 | [How to Unlock 5 Vision Skills with the Moondream Cloud API](https://learnopencv.com/moondream-cloud-api-one-image-five-grounded-vision-skills/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Moondream-Cloud-API) |
 | [JEE Advanced 2026: We Tested AI on the Toughest Exam](https://learnopencv.com/jee-advanced-2026-we-tested-ai-on-the-toughest-exam/) | |
 | [How to Master Qwen3-VL Embedding and Reranker for Multimodal Search](https://learnopencv.com/how-to-master-qwen3-vl-embedding-and-reranker-for-multimodal-search/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Qwen3-VL-Embedding-Reranker) |
@@ -301,7 +323,6 @@ Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/course
 |[Autoencoder in TensorFlow 2: Beginner’s Guide](https://learnopencv.com/autoencoder-in-tensorflow-2-beginners-guide/)| [Code](https://github.com/spmallick/learnopencv/tree/master/Autoencoder-in-TensorFlow) |
 |[Deep Learning with OpenCV DNN Module: A Definitive Guide](https://learnopencv.com/deep-learning-with-opencvs-dnn-module-a-definitive-guide/)| [Code](https://github.com/spmallick/learnopencv/tree/master/Deep-Learning-with-OpenCV-DNN-Module) |
 |[Depth perception using stereo camera (Python/C++)](https://learnopencv.com/depth-perception-using-stereo-camera-python-c/)| [Code](https://github.com/spmallick/learnopencv/tree/master/Depth-Perception-Using-Stereo-Camera) |
-|[Contour Detection using OpenCV (Python/C++)](https://learnopencv.com/contour-detection-using-opencv-python-c/)| [Code](https://github.com/spmallick/learnopencv/tree/master/Contour-Detection-using-OpenCV) |
 |[Super Resolution in OpenCV](https://learnopencv.com/super-resolution-in-opencv/)| [Code](https://github.com/spmallick/learnopencv/blob/master/Super-Resolution-in-OpenCV) |
 |[Improving Illumination in Night Time Images](https://learnopencv.com/improving-illumination-in-night-time-images/)| [Code](https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images) |
 |[Video Classification and Human Activity Recognition](https://learnopencv.com/introduction-to-video-classification-and-human-activity-recognition/) | [Code](https://github.com/spmallick/learnopencv/tree/master/video-classification-and-human-activity-recognition) |

@@ -4,6 +4,10 @@
 
 [<img src="https://learnopencv.com/wp-content/uploads/2022/07/download-button-e1657285155454.png" alt="download" width="200">](https://www.dropbox.com/sh/nmuto59a3eotuim/AAA9c_sOs6kLTiZONdVBa5Hza?dl=1)
 
+## OpenCV 5 on Linux
+
+- [Install OpenCV 5 on Linux](https://learnopencv.com/install-opencv-5-linux/) - [Code](https://github.com/spmallick/learnopencv/tree/master/Install-OpenCV-5-on-Linux)
+
 1. OpenCV Installation on Windows
 - [Install OpenCV 4.0 on Windows](https://www.learnopencv.com/install-opencv-4-on-windows/) - [Code](https://github.com/spmallick/learnopencv/tree/master/InstallScripts/Windows-4)
 - [Install OpenCV 3.4.x on Windows](https://www.learnopencv.com/install-opencv-3-4-4-on-windows/) - [Code](https://github.com/spmallick/learnopencv/tree/master/InstallScripts/Windows-3)
@@ -38,12 +42,26 @@
 - [OpenCV 3.4.3, OpenCV 3.4.4 and OpenCV 4.0 Docker Image](https://www.learnopencv.com/install-opencv-docker-image-ubuntu-macos-windows/)
 
 
-# AI Courses by OpenCV
+---
 
-Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/courses/) is a great place to start. 
-
-<a href="https://opencv.org/courses/">
-<p align="center"> 
-<img src="https://learnopencv.com/wp-content/uploads/2023/01/AI-Courses-By-OpenCV-Github.png">
+<p align="center">
+  <a href="https://bigvision.ai/">
+    <img src="https://bigvision.ai/logos/logo.png" alt="BigVision.AI" width="300">
+  </a>
 </p>
-</a>
+
+<h2 align="center">Build Production-Ready Computer Vision &amp; AI Solutions</h2>
+
+<p align="center">
+  LearnOpenCV is maintained by <a href="https://bigvision.ai/"><strong>BigVision.AI</strong></a>, a computer vision and AI consulting company. We help organizations design, build, optimize, and deploy production-ready AI solutions. Our team has deep expertise in computer vision, deep learning, multimodal AI, and edge deployment, with experience solving complex technical challenges across industries.
+</p>
+
+<p align="center">
+  Have a project in mind? Talk with our expert AI solution builders.
+</p>
+
+<p align="center">
+  <a href="https://bigvision.ai/expert-ai-solution-builders?utm_source=locv-github">
+    <img src="https://img.shields.io/badge/Get%20in%20Touch-087EA4?style=for-the-badge" alt="Get in Touch with BigVision.AI">
+  </a>
+</p>
