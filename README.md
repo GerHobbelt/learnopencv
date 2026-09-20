@@ -15,6 +15,9 @@ Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/course
 
 | Blog Post | Code|
 | ------------- |:-------------|
+| [YOLO26 Keypoint Estimation: Real-Time Pose Estimation with Ultralytics](https://learnopencv.com/yolo26-pose-estimation-tutorial/) | [Code](https://github.com/Sudip-329/learnopencv/tree/master/YOLO26_Keypoint_Estimation) |
+| [RF-DETR Segmentation: Real-Time Detection & Instance Segmentation Guide](https://learnopencv.com/rf-detr-segmentation-real-time-detection-instance-segmentation-guide/) | [Code](https://github.com/spmallick/learnopencv/tree/master/RF_DETR_Segmentation_Demo) |
+| [YOLO26 Instance Segmentation: Pixel-Perfect AI at Real-Time Speed](https://learnopencv.com/yolo26-instance-segmentation-pixel-perfect-ai-at-real-time-speed/) | [Code](YOLO26-instance-segmentation/) |
 | [Multi-Object Tracking with Roboflow Trackers and OpenCV](https://learnopencv.com/multi-object-tracking-with-roboflow-trackers-and-opencv/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Roboflow_Trackers_Demo) |
 | [Real-Time Face Blur and Pixelation with OpenCV YuNet](https://learnopencv.com/face-blur-pixelation-opencv-yunet/) | [Code](https://github.com/spmallick/learnopencv/tree/master/FaceBlurPixelate) |
 | [Breaking the Bottleneck: Achieving Native NMS-Free Inference with YOLO26](https://learnopencv.com/yolo26-nms-free-inference/) | [Code](https://github.com/spmallick/learnopencv/tree/master/YOLO26-NMS-Free-Demo) |
