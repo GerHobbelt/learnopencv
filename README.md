@@ -30,7 +30,12 @@ This repository contains code for Computer Vision, Deep learning, and AI researc
 
 | Blog Post | Code|
 | ------------- |:-------------|
-| [Contour Detection using OpenCV (Python/C++)](https://learnopencv.com/contour-detection-using-opencv-python-c/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Contour-Detection-using-OpenCV) |
+| [Contour Detection using OpenCV (Python/C++)](https://learnopencv.com/contour-detection-using-opencv-python-c/) [Updated] | [Code](https://github.com/spmallick/learnopencv/tree/master/Contour-Detection-using-OpenCV) |
+| [Feature Based Image Alignment using OpenCV (C++/Python)](https://learnopencv.com/image-alignment-feature-based-using-opencv-c-python/) [Updated] | [Code](https://github.com/spmallick/learnopencv/tree/master/ImageAlignment-FeatureBased) |
+| [Video Stabilization Using Point Feature Matching in OpenCV](https://learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/) [Updated] | [Code](https://github.com/spmallick/learnopencv/tree/master/VideoStabilization) |
+|[Camera Calibration using OpenCV](https://learnopencv.com/camera-calibration-using-opencv/) [Updated] |[Code](https://github.com/spmallick/learnopencv/tree/master/CameraCalibration)|
+|[Find the Center of a Blob (Centroid) using OpenCV (C++/Python)](https://learnopencv.com/find-center-of-blob-centroid-using-opencv-cpp-python/) [Updated] | [Code](https://github.com/spmallick/learnopencv/tree/master/CenterofBlob)|
+| [How to find frame rate or frames per second (fps) in OpenCV ( Python / C++ ) ?](https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/) [Updated] | [Code](https://github.com/spmallick/learnopencv/tree/master/FPS) |
 | [Install OpenCV 5 on Linux](https://learnopencv.com/install-opencv-5-linux/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Install-OpenCV-5-on-Linux) |
 | [Decoding Virat Kohli's Flick Shot: AI-Based 3D Motion Reconstruction](https://learnopencv.com/decoding-virat-kohlis-flick-shot-ai-based-3d-motion-reconstruction/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Decoding-Virats-Flick-Shot) |
 | [How to Run Object Detection with OpenCV 5](https://learnopencv.com/how-to-run-object-detection-with-opencv-5/) |  |
@@ -372,7 +377,6 @@ This repository contains code for Computer Vision, Deep learning, and AI researc
 |[CNN Receptive Field Computation Using Backprop with TensorFlow](https://www.learnopencv.com/cnn-receptive-field-computation-using-backprop-with-tensorflow/)|[Code](https://github.com/spmallick/learnopencv/tree/master/TensorFlow-Receptive-Field-With-Backprop)|
 |[Augmented Reality using AruCo Markers in OpenCV(C++ and Python)](https://www.learnopencv.com/augmented-reality-using-aruco-markers-in-opencv-(c++-python)/) |[Code](https://github.com/spmallick/learnopencv/tree/master/AugmentedRealityWithArucoMarkers)|
 |[Fully Convolutional Image Classification on Arbitrary Sized Image](https://www.learnopencv.com/fully-convolutional-image-classification-on-arbitrary-sized-image/)|[Code](https://github.com/spmallick/learnopencv/tree/master/PyTorch-Fully-Convolutional-Image-Classification)|
-|[Camera Calibration using OpenCV](https://www.learnopencv.com/camera-calibration-using-opencv/) |[Code](https://github.com/spmallick/learnopencv/tree/master/CameraCalibration)|
 |[Geometry of Image Formation](https://www.learnopencv.com/geometry-of-image-formation/) ||
 |[Ensuring Training Reproducibility in Pytorch](https://www.learnopencv.com/ensuring-training-reproducibility-in-pytorch) ||
 |[Gaze Tracking](https://www.learnopencv.com/gaze-tracking/) ||
@@ -394,7 +398,6 @@ This repository contains code for Computer Vision, Deep learning, and AI researc
 |[Invisibility Cloak using Color Detection and Segmentation with OpenCV](https://www.learnopencv.com/invisibility-cloak-using-color-detection-and-segmentation-with-opencv/) | [Code](https://github.com/spmallick/learnopencv/tree/master/InvisibilityCloak) |
 |[Fast Image Downloader for Open Images V4 (Python)](https://www.learnopencv.com/fast-image-downloader-for-open-images-v4/) | [Code](https://github.com/spmallick/learnopencv/tree/master/downloadOpenImages) |
 |[Deep Learning based Text Detection Using OpenCV (C++/Python)](https://www.learnopencv.com/deep-learning-based-text-detection-using-opencv-c-python/) | [Code](https://github.com/spmallick/learnopencv/tree/master/TextDetectionEAST) |
-|[Video Stabilization Using Point Feature Matching in OpenCV](https://www.learnopencv.com/video-stabilization-using-point-feature-matching-in-opencv/) | [Code](https://github.com/spmallick/learnopencv/tree/master/VideoStabilization) |
 |[Training YOLOv3 : Deep Learning based Custom Object Detector](https://www.learnopencv.com/training-yolov3-deep-learning-based-custom-object-detector/) | [Code](https://github.com/spmallick/learnopencv/tree/master/YOLOv3-Training-Snowman-Detector ) |
 |[Using OpenVINO with OpenCV](https://www.learnopencv.com/using-openvino-with-opencv/) | [Code](https://github.com/spmallick/learnopencv/tree/master/OpenVINO-OpenCV) |
 |[Duplicate Search on Quora Dataset](https://www.learnopencv.com/duplicate-search-on-quora-dataset/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Quora-Dataset-Duplicate-Search) |
@@ -426,7 +429,6 @@ This repository contains code for Computer Vision, Deep learning, and AI researc
 |[Convolutional Neural Network based Image Colorization using OpenCV](https://www.learnopencv.com/convolutional-neural-network-based-image-colorization-using-opencv/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Colorization)|
 |[SVM using scikit-learn](https://www.learnopencv.com/svm-using-scikit-learn-in-python/)|[Code](https://github.com/spmallick/learnopencv/tree/master/SVM-using-Python)|
 |[GOTURN: Deep Learning based Object Tracking](https://www.learnopencv.com/goturn-deep-learning-based-object-tracking/) | [Code](https://github.com/spmallick/learnopencv/tree/master/GOTURN)|
-|[Find the Center of a Blob (Centroid) using OpenCV (C++/Python)](https://www.learnopencv.com/find-center-of-blob-centroid-using-opencv-cpp-python/) | [Code](https://github.com/spmallick/learnopencv/tree/master/CenterofBlob)|
 |[Support Vector Machines (SVM)](https://www.learnopencv.com/support-vector-machines-svm/)|[Code](https://github.com/spmallick/learnopencv/tree/master/SVM-using-Python)|
 |[Batch Normalization in Deep Networks](https://www.learnopencv.com/batch-normalization-in-deep-networks/) | [Code](https://github.com/spmallick/learnopencv/tree/master/BatchNormalization)|
 |[Deep Learning based Character Classification using Synthetic Dataset](https://www.learnopencv.com/deep-learning-character-classification-using-synthetic-dataset/) | [Code](https://github.com/spmallick/learnopencv/tree/master/CharClassification)|
@@ -438,7 +440,6 @@ This repository contains code for Computer Vision, Deep learning, and AI researc
 |[How to convert your OpenCV C++ code into a Python module](https://www.learnopencv.com/how-to-convert-your-opencv-c-code-into-a-python-module/)|[Code](https://github.com/spmallick/learnopencv/tree/master/pymodule)|
 |[CV4Faces : Best Project Award 2018](https://www.learnopencv.com/cv4faces-best-project-award-2018/)| |
 |[Facemark : Facial Landmark Detection using OpenCV](https://www.learnopencv.com/facemark-facial-landmark-detection-using-opencv/)|[Code](https://github.com/spmallick/learnopencv/tree/master/FacialLandmarkDetection)|
-|[Image Alignment (Feature Based) using OpenCV (C++/Python)](https://www.learnopencv.com/image-alignment-feature-based-using-opencv-c-python/)| [Code](https://github.com/spmallick/learnopencv/tree/master/ImageAlignment-FeatureBased)|
 |[Barcode and QR code Scanner using ZBar and OpenCV](https://www.learnopencv.com/barcode-and-qr-code-scanner-using-zbar-and-opencv/)| [Code](https://github.com/spmallick/learnopencv/tree/master/barcode-QRcodeScanner)|
 |[Keras Tutorial : Fine-tuning using pre-trained models](https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/)| [Code](https://github.com/spmallick/learnopencv/tree/master/Keras-Fine-Tuning)|
 |[OpenCV Transparent API](https://www.learnopencv.com/opencv-transparent-api/)| |
@@ -501,7 +502,6 @@ This repository contains code for Computer Vision, Deep learning, and AI researc
 |[NVIDIA DIGITS 3 on EC2](http://www.learnopencv.com/nvidia-digits-3-on-ec2/) | |
 |[Homography Examples using OpenCV ( Python / C ++ )](http://www.learnopencv.com/homography-examples-using-opencv-python-c/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Homography) |
 |[Filling holes in an image using OpenCV ( Python / C++ )](http://www.learnopencv.com/filling-holes-in-an-image-using-opencv-python-c/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Holes) |
-|[How to find frame rate or frames per second (fps) in OpenCV ( Python / C++ ) ?](http://www.learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/) | [Code](https://github.com/spmallick/learnopencv/tree/master/FPS) |
 |[Delaunay Triangulation and Voronoi Diagram using OpenCV ( C++ / Python)](http://www.learnopencv.com/delaunay-triangulation-and-voronoi-diagram-using-opencv-c-python/) | [Code](https://github.com/spmallick/learnopencv/tree/master/Delaunay) |
 |[OpenCV (C++ vs Python) vs MATLAB for Computer Vision](http://www.learnopencv.com/opencv-c-vs-python-vs-matlab-for-computer-vision/) | |
 |[Facial Landmark Detection](http://www.learnopencv.com/facial-landmark-detection/) | |
